@@ -1,0 +1,80 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{adjustbox}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{cite}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{comment}
+\usepackage[utf8]{inputenc}
+\lstset{ 
+literate= {á}{{\'a}}1 
+    {é}{{\'e}}1 
+    {í}{{\'i}}1 
+    {ó}{{\'o}}1 
+    {ú}{{\'u}}1
+} 
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+urlcolor=blue,
+}
+\pgfplotsset{compat=1.18}
+\usepackage[portuguese]{babel}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+\title{1° Avaliação Bimestral - Engenharia de Software}
+\author{Gabriel Gaspar}
+\date{16 dezembro 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+\paragraph{} Esta avaliação foi feita pelo aluno Gabriel de Paula Gaspar Pinto, para a matéria de Engenharia de Software, ministrado pelos professores Lauriana Paludo e William Simão de Deus. Neste trabalho, foi feito um código em C\texttt{++}, de acordo com que o exercício "Quermesse" (OBI). Como é um código simples, de 30 linhas (contando espaços em branco), feito em menos de meia hora, ele foi feito seguindo o processo prescritivo de codificar e consertar, sendo o mais ideal, levando em conta o tamanho do programa. 
+
+\section{Potencialidades}
+\paragraph{} Ao resolver o problema dado, foi escolhido tal processo, por ser um programa curto e fácil de programar. Com isso, foi possível perceber que eu consegui me adaptar facilmente a este processo, já que estou acostumado com ele, devido ao fato de resolver as listas de exercícios, feitas na plataforma \href{https://judge.beecrowd.com}{Beecrowd}, da matéria de "Introdução à Programação" utilizando o processo de codificar e consertar. Assim, ao utilizar este processo, foi familiar, agilizando o processo de fazer o programa.
+
+\section{Fragilidades}
+\paragraph{} Ao utilizar este processo, foi possível perceber que foi muito fácil de se perder no código e no processo de codificação do mesmo. Por exemplo, mesmo que seja um código de somente 30 linhas, foi necessário recomeçar algumas vezes, sendo não ideal, já que desta maneira, somente se gasta tempo e energia.
+
+\section{Testes}
+\paragraph{} Considerando que o processo utilizado para codificação do programa foi o processo de codificar e consertar, os testes realizados para atingir o funcionamento correto do programa foram resumidos a testes de unidade, nos quais eu estava testando cada parte do código, para garantir que todas as partes estavam funcionando corretamente, antes de finalizá-lo. 
+
+\section{Código}
+\paragraph{} O código desta avaliação foi feito em C\texttt{++}, anexado abaixo.
+
+\lstinputlisting[language=c++]{Quermesse.cpp}
+
+\section{Conclusão}
+\paragraph{} Por fim, foi possível perceber que o processo de codificar e consertar foi o processo mais adequado para fazer este programa, considerando seu tamanho e o tempo necessário para o finalizar. Também, pelos mesmos motivos de tamanho e tempo, foi possível de notar que os testes de unidade realizados também foram os mais adequados, devido tanto a simplicidade do código e a simplicidade de realizar estes testes.
+
+\end{document}
